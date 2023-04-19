@@ -40,3 +40,9 @@ With Multi Threading and null check
 `Reflection Prob` - Using the reflection API, getDeclaredConstructor() method and  constructors.setAccessible(true) which will return you a separate instance.
 
 `Sol` - Use Enum. Enums doesn't has constructors. So reflection can not modify this.
+
+## Factory Pattern
+
+### Basic features
+
+Hides the object creation process, hands over the created object. Example - Driver creation for DB connection(JDBC driver), we just pass urls.
