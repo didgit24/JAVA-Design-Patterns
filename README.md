@@ -46,3 +46,15 @@ With Multi Threading and null check
 ### Basic features
 
 Hides the object creation process, hands over the created object. Example - Driver creation for DB connection(JDBC driver), we just pass urls.
+
+## Abstract Factory Pattern
+
+### Basic features
+
+Factory of factory patterns. Example - JAXP, read-write-update xml class using document class. To create document we use DocumentBuilder which is a factory class. DocumnetBuliderFactory creates DocumnetBuilder, factory of factory.
+
+## Template Method Pattern
+
+### Basic features
+
+Behavioural pattern. Parent would have Base template method whic should be used by child classes.
