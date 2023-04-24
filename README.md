@@ -58,3 +58,9 @@ Factory of factory patterns. Example - JAXP, read-write-update xml class using d
 ### Basic features
 
 Behavioural pattern. Parent would have Base template method whic should be used by child classes.
+
+## Adapter Pattern
+
+### Basic features
+
+Adapter pattern helps one method from one class to adapt and imlement method according to other class. Adapter class will converts the methods accordingly.
